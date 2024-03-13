@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.btn,
+.btn-outline {
+  background-color: black;
+  border: none;
+  padding: 16px 35px;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-transform: uppercase;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+@media (max-width: 500px) {
+  .btn-outline,
+  .btn {
+    padding: 10px 20px;
+    text-wrap: nowrap;
+  }
+}
