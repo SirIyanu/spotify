@@ -1,3 +1,4 @@
+import { CustomButton } from "../Button";
 import style from "./Hero.module.css";
 export const Hero = () => {
   return (
@@ -7,8 +8,10 @@ export const Hero = () => {
         Just ₹119/month after. Debit and credit cards accepted. Cancel anytime.
       </p>
       <div className={style["button-group"]}>
-        <button className="btn">Get started</button>
-        <button className="btn-outline">See other plans</button>
+        <CustomButton onClick={() => {}}>Get Started</CustomButton>
+        <CustomButton onClick={() => {}} type="outline">
+          See other plans
+        </CustomButton>
       </div>
 
       <div className={style.terms}>

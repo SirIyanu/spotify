@@ -33,10 +33,23 @@
   }
   .menu ul {
     display: none;
+    padding: 0;
   }
 
   .menu ul.mobile {
     display: block;
+  }
+
+  .menu ul li {
+    padding: 10px 0;
+  }
+
+  .menu ul li a {
+    padding-left: 0;
+  }
+
+  .menu li.hidden-mobile {
+    display: none;
   }
 }
 
@@ -54,13 +67,5 @@
 }
 
 .menu .menu-icon {
-  display: none;
-}
-
-.menu ul li {
-  padding: 10px 0;
-}
-
-.menu li.hidden-mobile {
   display: none;
 }

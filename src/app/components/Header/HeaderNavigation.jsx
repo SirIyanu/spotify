@@ -1,6 +1,6 @@
-export const HeaderNavigation = () => {
+export const HeaderNavigation = (props) => {
   return (
-    <ul>
+    <ul className={props.className}>
       <li>
         <a href="#/Premium">Premium</a>
       </li>
