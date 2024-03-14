@@ -10,7 +10,7 @@ export const HeaderNavigation = () => {
       <li>
         <a href="#/Download">Download</a>
       </li>
-      <li>|</li>
+      <li className="hidden-mobile">|</li>
       <li className="active">
         <a href="#/Sign Up">Sign Up</a>
       </li>
