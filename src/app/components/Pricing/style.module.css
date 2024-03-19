@@ -1,0 +1,130 @@
+.section {
+  background-color: #efefef;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-self: center;
+}
+
+.card,
+.discount {
+  background-color: white;
+  width: 269px;
+  max-width: 269px;
+  padding: 10px 0;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 16px;
+}
+
+.card span.free,
+.card span.one-time {
+  background-color: #0d72ea;
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #ffff;
+  margin: 5px 0;
+}
+
+.card span.one-time {
+  background-color: #ffff;
+  color: #0d72ea;
+  border: 1px solid #0d72ea;
+}
+
+.card h4.planName {
+  font-size: 23px;
+  color: #000000;
+}
+
+.header {
+  margin: 0 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.content {
+  padding: 20px;
+  padding-bottom: 0;
+  box-shadow: -8px 10px 12px #ddd;
+}
+
+.content ul {
+  margin: 0;
+  padding: 0 22px;
+  list-style-image: url(../../assets/icons/check-mark.svg);
+}
+
+.content ul li {
+  padding: 5px 15px;
+  position: relative;
+}
+
+.content ul li p {
+  margin: 0;
+  margin-top: -4px;
+  position: absolute;
+}
+
+.content .button {
+  width: 100%;
+  display: block;
+  margin-top: 40px;
+}
+
+.footer {
+  padding: 20px;
+  color: #535353;
+  font-size: 12px;
+}
+
+.footer a {
+  color: #535353;
+  font-size: 12px;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title,
+.description {
+  color: black;
+  font-size: 38px;
+  text-align: center;
+  margin: 0;
+}
+
+.description {
+  font-size: 16px;
+  padding: 14px 0;
+}
+
+.discount {
+  max-width: none;
+  width: fit-content;
+  justify-content: space-between;
+  display: flex;
+  color: #000000;
+  padding: 4px 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .discount {
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+}

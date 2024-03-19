@@ -1,11 +1,9 @@
 import "./App.css";
-import { LandingPageHeader } from "./components/Header/LandingPageHeader";
-import { Hero } from "./components/Hero";
+import { Landing } from "./pages/Landing";
 export function App() {
   return (
     <div>
-      <LandingPageHeader />
-      <Hero />
+      <Landing />
     </div>
   );
 }
