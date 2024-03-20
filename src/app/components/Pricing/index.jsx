@@ -26,6 +26,8 @@ export const PricingSection = () => {
       <br />
       <br />
       <DiscountFlag />
+      <br />
+      <br />
     </section>
   );
 };

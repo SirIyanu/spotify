@@ -4,7 +4,8 @@
   color: #fff;
   text-align: center;
   padding: 15px;
-  min-height: calc(380px - 30px);
+  padding: var(--app-padding);
+  min-height: calc(480px - 30px);
 
   display: flex;
   justify-content: center;

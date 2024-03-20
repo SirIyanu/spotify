@@ -12,3 +12,5 @@ export function Logo(props) {
     </a>
   );
 }
+
+export default Logo;

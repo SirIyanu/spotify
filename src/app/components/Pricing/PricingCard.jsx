@@ -23,12 +23,11 @@ export const PricingCardItem = (props) => {
             ))}
         </ul>
 
-        <br />
-        <p>
+        <div>
           <CustomButton className={style.button} onClick={() => {}}>
             View plans
           </CustomButton>
-        </p>
+        </div>
       </div>
       <div className={style.footer}>
         <a href="#">Terms and conditions apply.</a>1 month free not available

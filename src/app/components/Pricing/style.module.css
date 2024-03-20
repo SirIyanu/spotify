@@ -1,6 +1,6 @@
 .section {
+  padding: var(--app-padding);
   background-color: #efefef;
-  padding: 5%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -17,6 +17,11 @@
   border-radius: 10px;
   color: #000000;
   font-size: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
 }
 
 .card span.free,
@@ -48,9 +53,13 @@
 }
 
 .content {
+  flex: 1;
   padding: 20px;
   padding-bottom: 0;
   box-shadow: -8px 10px 12px #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .content ul {
@@ -89,7 +98,7 @@
 
 .flex {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
 }
