@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import { Landing } from "./pages/Landing";
 import { LoginPage } from "./pages/Login";
-import { IsProtectedRoute } from "./hoc/IsProtectedRoute";
+// import { IsProtectedRoute } from "./hoc/IsProtectedRoute";
 
 const router = createBrowserRouter([
   {
