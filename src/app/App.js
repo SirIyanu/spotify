@@ -6,7 +6,7 @@ import { IsProtectedRoute } from "./hoc/IsProtectedRoute";
 
 const router = createBrowserRouter([
   {
-    path: "",
+    path: "/",
     element: (
       <IsProtectedRoute>
         <Landing />
