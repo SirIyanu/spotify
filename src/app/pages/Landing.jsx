@@ -5,7 +5,7 @@ import { PricingSection } from "../components/Pricing";
 import Footer from "../components/Footer";
 export function Landing() {
   return (
-    <div>
+    <div id="top page">
       <LandingPageHeader />
       <Hero />
       <Features />

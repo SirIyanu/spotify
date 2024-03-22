@@ -1,0 +1,115 @@
+.header,
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--app-padding);
+  padding-block: 15px;
+  height: 60px;
+  border-bottom: 1px solid #d9dadc;
+}
+
+.main {
+  flex-direction: column;
+  height: auto;
+  border-bottom: none;
+  max-width: 470px;
+  width: 100%;
+  margin: auto;
+  gap: 15px;
+  padding-top: 50px;
+  color: black;
+  font-family: "Inter", sans-serif;
+}
+
+.google svg {
+  width: 15px;
+  height: 15px;
+}
+
+.main button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.9;
+  font-family: "Inter", sans-serif;
+}
+
+.main button:hover {
+  opacity: 1;
+  transform: scale(1.01);
+}
+
+.facebook {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #1877f2;
+}
+
+.google {
+  border: 1px solid #878787;
+  color: #6a6a6a;
+  background-color: transparent;
+}
+
+.divider {
+  height: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #d9dadc;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+.divider span {
+  background-color: #ffff;
+  padding: 5px 20px;
+  color: black;
+}
+
+.main p {
+  font-weight: bold;
+  margin: 5px;
+}
+
+.forgot {
+  font-size: 16px;
+  font-family: Helvetica;
+  color: black;
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  max-width: fit-content;
+  background-color: #1ed760;
+  color: black;
+}
+
+.flex input:checked {
+  accent-color: #1ed760;
+}
+
+.flex input[type="checkbox"] {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.flex > div {
+  display: flex;
+  gap: 10px;
+}

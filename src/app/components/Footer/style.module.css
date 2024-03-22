@@ -110,3 +110,17 @@
     gap: 100px;
   }
 }
+
+.gotoTop {
+  position: fixed;
+  background-color: red;
+  padding: 20px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.gotoTop a {
+  color: black;
+  font-weight: 600;
+  font-size: larger;
+}
