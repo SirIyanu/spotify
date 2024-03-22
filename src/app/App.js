@@ -8,25 +8,25 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <IsProtectedRoute>
-        <Landing />
-      </IsProtectedRoute>
+      // <IsProtectedRoute>
+      <Landing />
+      // </IsProtectedRoute>
     ),
   },
   {
-    path: "dashboard",
+    path: "/dashboard",
     element: (
-      <IsProtectedRoute>
-        <LoginPage />
-      </IsProtectedRoute>
+      // <IsProtectedRoute>
+      <LoginPage />
+      // </IsProtectedRoute>
     ),
   },
   {
-    path: "login",
+    path: "/login",
     element: <LoginPage />,
   },
   {
-    path: "home",
+    path: "/home",
     element: <Landing />,
   },
   {
