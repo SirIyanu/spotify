@@ -10,7 +10,7 @@ export function Landing() {
       <Hero />
       <Features />
       <PricingSection />
-      " <Footer />"
+      <Footer />
     </div>
   );
 }
