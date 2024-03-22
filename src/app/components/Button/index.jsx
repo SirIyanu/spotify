@@ -11,7 +11,7 @@ export const CustomButton = (props) => {
   return props.onClick ? (
     <button className={classes}>{props.children}</button>
   ) : (
-    <a href="#" className={classes}>
+    <a href={props.route} className={classes}>
       {props.children}
     </a>
   );

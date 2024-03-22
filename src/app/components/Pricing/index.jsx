@@ -4,7 +4,7 @@ import { paymentMethods, pricingList } from "./data";
 import style from "./style.module.css";
 export const PricingSection = () => {
   const renderPaymentMethod = (method) => {
-    if (method.icon) return <img src={method.icon} />;
+    if (method.icon) return <img alt="icon" src={method.icon} />;
     return null;
   };
   return (

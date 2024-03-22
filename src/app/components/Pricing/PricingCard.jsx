@@ -30,7 +30,7 @@ export const PricingCardItem = (props) => {
         </div>
       </div>
       <div className={style.footer}>
-        <a href="#">Terms and conditions apply.</a>1 month free not available
+        <a href="/">Terms and conditions apply.</a>1 month free not available
         for users who have already tried Premium.
       </div>
     </div>

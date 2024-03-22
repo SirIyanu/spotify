@@ -4,13 +4,13 @@ import { Logo } from "../Logo/Logo";
 import { HeaderNavigation } from "./HeaderNavigation";
 import { ReactComponent as MenuIcon } from "../../assets/icons/menu.svg";
 
-function useState(initialValue) {
-  let val = initialValue;
-  function change(newValue) {
-    val = newValue;
-  }
-  return [val, change];
-}
+// function useState(initialValue) {
+//   let val = initialValue;
+//   function change(newValue) {
+//     val = newValue;
+//   }
+//   return [val, change];
+// }
 
 export const LandingPageHeader = () => {
   const [showMenu, setMenu] = React.useState(false);

@@ -8,7 +8,7 @@ export function Logo(props) {
   const myImage = props.useWhite ? SpotifyWhite : SpotifyBlack;
   return (
     <a href="#/dashboard" className={style.logo}>
-      <img src={myImage} />
+      <img alt="logo" src={myImage} />
     </a>
   );
 }

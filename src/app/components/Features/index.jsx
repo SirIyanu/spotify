@@ -7,7 +7,7 @@ export const Features = () => {
       <div className={styles.list}>
         {features.map((feature) => (
           <div className={styles.item}>
-            <img src={feature.image} />
+            <img alt={feature.title} src={feature.image} />
             <div>
               <h5 className={styles.title}>{feature.title}</h5>
               <p className={styles.description}>{feature.description}</p>

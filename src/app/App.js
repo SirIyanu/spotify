@@ -1,6 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
-import { useNavigation } from "./hooks/useNavigation";
 import { Landing } from "./pages/Landing";
 import { LoginPage } from "./pages/Login";
 import { IsProtectedRoute } from "./hoc/IsProtectedRoute";

@@ -15,7 +15,7 @@ export const Hero = () => {
       </div>
 
       <div className={style.terms}>
-        <a href="#">Terms and conditions apply.</a>1 month free not available
+        <a href={"/"}>Terms and conditions apply.</a>1 month free not available
         for users who have already tried Premium.
       </div>
     </section>
