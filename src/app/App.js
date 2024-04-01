@@ -3,6 +3,10 @@ import "./App.css";
 import { Landing } from "./pages/Landing";
 import { LoginPage } from "./pages/Login";
 import { IsProtectedRoute } from "./hoc/IsProtectedRoute";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { routes } from "./route";
+import { DashboardPage } from "./pages/Dashboard";
 
 const router = createBrowserRouter([
   {
@@ -14,10 +18,10 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/dashboard",
+    path: routes.dashboard,
     element: (
       <IsProtectedRoute>
-        <LoginPage />
+        <DashboardPage />
       </IsProtectedRoute>
     ),
   },
@@ -36,5 +40,10 @@ const router = createBrowserRouter([
 ]);
 
 export function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <ToastContainer />
+      <RouterProvider router={router} />;
+    </>
+  );
 }

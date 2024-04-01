@@ -1,6 +1,9 @@
+import { isUserLogin } from "../../utils/user";
+
 export const IsProtectedRoute = ({ children }) => {
-  const user = JSON.parse(localStorage.getItem("user") ?? "{}");
-  if (user.email && user.token) {
+  const user = isUserLogin;
+  // make an api with user id
+  if (user) {
     return children;
   }
   window.location.href = "/login";

@@ -1,3 +1,3 @@
 export const combineClasses = (...arg) => {
-  return arg.join(" ");
+  return arg.flat().join(" ");
 };
