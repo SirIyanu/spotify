@@ -21,6 +21,7 @@ code {
 :root {
   --app-padding: 0 180px;
   --app-header-background: black;
+  --dashboard-padding: 20px;
 }
 
 @media (max-width: 920px) {
