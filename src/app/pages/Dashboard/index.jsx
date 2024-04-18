@@ -1,3 +1,4 @@
+import { DashboardFooter } from "../../components/Footer/DashboardFooter";
 import { Sidebar } from "../../components/Sidebar";
 import style from "./style.module.css";
 import { Outlet } from "react-router-dom";
@@ -8,12 +9,13 @@ export const DashboardPage = () => {
         <Sidebar />
         <main>
           <section className={style.content}>
-          <Outlet />
+            <Outlet />
           </section>
-         
         </main>
       </section>
-      <footer className={style.footer}>footer</footer>
+      <footer className={style.footer}>
+        <DashboardFooter />
+      </footer>
     </section>
   );
 };

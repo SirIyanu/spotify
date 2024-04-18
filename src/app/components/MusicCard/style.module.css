@@ -12,7 +12,12 @@
   text-decoration: none;
   border-radius: 8px;
   overflow: hidden;
+  cursor: pointer;
   /* box-shadow: 0 0px 10px #424242; */
+}
+
+.active {
+  filter: invert(1);
 }
 
 .horizontal img {
