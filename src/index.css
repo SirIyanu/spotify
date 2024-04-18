@@ -22,6 +22,7 @@ code {
   --app-padding: 0 180px;
   --app-header-background: black;
   --dashboard-padding: 20px;
+  --dashboard-content-padding: 30px;
 }
 
 @media (max-width: 920px) {

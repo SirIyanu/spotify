@@ -50,7 +50,7 @@ export const LoginPage = () => {
       .then((response) => {
         console.log("I got a login success", response);
         localStorage.setItem("user", JSON.stringify(response));
-        window.location.href = routes.dashboard;
+        window.location.href = routes.dashboard();
       })
       .catch((error) => {
         console.log("i got a login error", error.message);
@@ -64,7 +64,7 @@ export const LoginPage = () => {
   useEffect(() => {
     const user = isUserLogin();
     if (user) {
-      window.location.href = routes.dashboard;
+      window.location.href = routes.dashboard();
     }
   }, []);
 

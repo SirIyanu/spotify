@@ -12,10 +12,10 @@ export const HeaderNavigation = (props) => {
       </li>
       <li className="hidden-mobile">|</li>
       <li className="active">
-        <a href="/SignUp">Sign Up</a>
+        <a href="/Signup">Sign Up</a>
       </li>
       <li className="active">
-        <a href="/Login">Log in</a>
+        <a href="/login">Log in</a>
       </li>
     </ul>
   );

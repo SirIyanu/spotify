@@ -8,15 +8,18 @@
 .container {
   color: #b3b3b3;
   background-color: #000;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  /* overflow-y: hidden; */
 }
 
 .content-wrapper {
   flex: 1;
   display: flex;
+  /* overflow: hidden; */
+  /* height: 700px; */
 }
 
 .content-wrapper > aside {

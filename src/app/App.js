@@ -7,6 +7,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { routes } from "./route";
 import { DashboardPage } from "./pages/Dashboard";
+import { MainDashboard } from "./pages/Dashboard/MainDashboard";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,16 @@ const router = createBrowserRouter([
         <DashboardPage />
       </IsProtectedRoute>
     ),
+    children: [
+      {
+        path: routes.dashboard(),
+        element: <MainDashboard />,
+      },
+      {
+        path: routes.playlist(),
+        element: <h1>Afterrryyy</h1>,
+      },
+    ],
   },
   {
     path: "/login",
