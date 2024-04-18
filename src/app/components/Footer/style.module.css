@@ -113,7 +113,7 @@
 
 .gotoTop {
   position: fixed;
-  background-color: red;
+  background-color: rgb(23, 63, 23);
   padding: 20px;
   bottom: 20px;
   right: 20px;
@@ -123,4 +123,10 @@
   color: black;
   font-weight: 600;
   font-size: larger;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

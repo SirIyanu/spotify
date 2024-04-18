@@ -3,6 +3,10 @@
   background-color: #181818;
   padding: var(--dashboard-padding);
   border-block: 1px solid #282828;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .container {
@@ -12,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
 }
 
 .content-wrapper {

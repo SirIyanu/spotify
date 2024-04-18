@@ -13,9 +13,7 @@ export const DashboardPage = () => {
           </section>
         </main>
       </section>
-      <footer className={style.footer}>
-        <DashboardFooter />
-      </footer>
+      <DashboardFooter className={style.footer} />
     </section>
   );
 };

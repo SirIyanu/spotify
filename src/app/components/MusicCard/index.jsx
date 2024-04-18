@@ -6,7 +6,7 @@ import React from "react";
 export const MusicCard = (props) => {
   const { audio, update } = React.useContext(AudioContext);
   const playMusic = () => {
-    update(props.music, props.title);
+    update(props.music, props.title, "", props);
   };
   // console.log(props.music);
   const isplayingClass = props.title == audio.next ? style.active : "";
